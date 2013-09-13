@@ -14,7 +14,8 @@ stage { 'preinstall':
 
 class apt_get_update {
   exec { 'apt-get -y update':
-    unless => "test -e ${home}/.rvm"
+    unless => "test -e ${home}/.rvm",
+    timeout => 900,
   }
 }
 class { 'apt_get_update':
