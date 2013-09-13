@@ -22,16 +22,27 @@ Linux plugins installed (via [MinGW][], [Cygwin][], etc).
 Step 2
 ---------------------------------------------------------------------
 In order to quickly setup the developer environment find a premade 
-manifeat or recipe to use for installing the appropraite software, like 
-[MySQL][] for databases and [Apache][] for serving webpages or 
-applications.
+manifeat or recipe to use in Vagrant for installing the appropraite 
+software, like [MySQL][] for databases and [Apache][] for serving webpages 
+or applications.
 
-*Note: Any premade Vagrant box will by default have Ruby installed, to 
-allow provisioners like [Chef][] or [Puppet][] to run and install software.
+_*Note: Any premade Vagrant box will by default have Ruby installed, to 
+allow provisioners like [Chef][] or [Puppet][] to run and install software._
 
+For this Project I will be following SpinUpLabs' 
+[Vagrant: Rails development environment][] article and using their 
+[Vagrant file and Puppet manifest][SpinUpLabs' Vagrant Dev Box] to quickly 
+start building an ideal Ruby on Rails developer environment.
 
 References:
 ---------------------------------------------------------------------
+### Articles
+- [Vagrant: Rails development environment][]
+
+### Repositories
+- [SpinUpLabs' Vagrant Dev Box][]
+
+### Tools
 - [Apache][]
 - [Bundler][]
 - [Capistrano][]
@@ -47,6 +58,10 @@ References:
 
 ### others
 - [How to set up SSH (for the beginner)](http://inside.mines.edu/~gmurray/HowTo/sshNotes.html)
+
+[Vagrant: Rails development environment]: http://www.spinuplabs.com/posts/vagrant-rails-development-environment
+
+[SpinUpLabs' Vagrant Dev Box]: https://github.com/redsparklabs/spinuplabs-vagrant-dev-box
 
 [Apache]:     http://www.apache.org/                 "Apache"
 [Bundler]:    http://bundler.io/                     "Bundler"
