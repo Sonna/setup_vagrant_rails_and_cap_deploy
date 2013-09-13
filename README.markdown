@@ -45,6 +45,9 @@ References:
 - [VirtualBox][]
 - [VMFusion][]
 
+### others
+- [How to set up SSH (for the beginner)](http://inside.mines.edu/~gmurray/HowTo/sshNotes.html)
+
 [Apache]:     http://www.apache.org/                 "Apache"
 [Bundler]:    http://bundler.io/                     "Bundler"
 [Capistrano]: http://www.capistranorb.com/           "Capistrano"
