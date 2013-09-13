@@ -25,11 +25,12 @@ Step 2
 ---------------------------------------------------------------------
 In order to quickly setup the developer environment find a premade 
 manifeat or recipe to use in Vagrant for installing the appropraite 
-software, like [MySQL][] for databases and [Apache][] for serving webpages 
-or applications.
+software, like [MySQL][] for databases and [Apache][] for serving 
+webpages or applications.
 
 _*Note: Any premade Vagrant box will by default have Ruby installed, to 
-allow provisioners like [Chef][] or [Puppet][] to run and install software._
+allow provisioners like [Chef][] or [Puppet][] to run and install 
+software._
 
 For this Project I will be following SpinUpLabs' 
 [Vagrant: Rails development environment][] article and using their 
@@ -60,7 +61,8 @@ into the project's root folder.
 
 Step 4
 ---------------------------------------------------------------------
-Change to the project's root directory in Terminal (Linux or Mac OS X), Git bash or Command Prompt as Admin (Windows); 
+Change to the project's root directory in Terminal (Linux or Mac OS X), 
+Git bash or Command Prompt as Admin (Windows); 
 
 e.g. ```cd ~/My\Documents/GitHu/setup_vagrant_rails_and_cap_deploy/```
 
@@ -73,6 +75,16 @@ _*Note: This will take some time and may fail from timing out when
 installing some packages. If that happens restart the virtual machine 
 with ```vagrant reload```. This also useful for making changes take 
 affect after updating the configure manifests._
+
+
+Step 5
+---------------------------------------------------------------------
+After the installation has finished, login into the virtual machine with
+```vagrant ssh```.
+
+_*Note: SSH will NOT work in Windows' Command Prompt without additional 
+tools like Cygwin. I would recommend downloading Git and using its Git 
+bash_
 
 
 
