@@ -31,8 +31,24 @@ allow provisioners like [Chef][] or [Puppet][] to run and install software._
 
 For this Project I will be following SpinUpLabs' 
 [Vagrant: Rails development environment][] article and using their 
-[Vagrant file and Puppet manifest][SpinUpLabs' Vagrant Dev Box] to quickly 
-start building an ideal Ruby on Rails developer environment.
+[Vagrant file and Puppet manifest][SpinUpLabs' Vagrant Dev Box] to 
+quickly start building an ideal Ruby on Rails developer environment.
+
+
+### Step 2 - Alternative
+Alternatively you could chose to configure your Vagrant install with 
+something like SaltStack. _which is a great alternative if you find Chef 
+and Puppet hard to configure or too slow_. 
+
+SaltStack is Python based script that uses [YAML][] files for 
+configuration manifests. To use it with Vagrant you will need to install 
+[Salty Vagrant][] by running ```vagrant plugin install vagrant-salt``` 
+after installing Vagrant.
+
+Quickly searching the web found the 
+["Red Tide Hobo Surfer" repositroy][Red Tide Hobo Surfer], which should 
+install and setup a Rails environment using SaltStack.
+
 
 References:
 ---------------------------------------------------------------------
@@ -40,9 +56,11 @@ References:
 - [Vagrant: Rails development environment][]
 
 ### Repositories
+- [Red Tide Hobo Surfer][]
+- [Salty Vagrant][]
 - [SpinUpLabs' Vagrant Dev Box][]
 
-### Tools
+### Software/Tools
 - [Apache][]
 - [Bundler][]
 - [Capistrano][]
@@ -55,12 +73,16 @@ References:
 - [Vagrant][]
 - [VirtualBox][]
 - [VMFusion][]
+- [YAML][]
 
 ### others
 - [How to set up SSH (for the beginner)](http://inside.mines.edu/~gmurray/HowTo/sshNotes.html)
 
+
 [Vagrant: Rails development environment]: http://www.spinuplabs.com/posts/vagrant-rails-development-environment
 
+[Red Tide Hobo Surfer]: https://github.com/geopet/red-tide-hobo-surfer
+[Salty Vagrant]: https://github.com/saltstack/salty-vagrant
 [SpinUpLabs' Vagrant Dev Box]: https://github.com/redsparklabs/spinuplabs-vagrant-dev-box
 
 [Apache]:     http://www.apache.org/                 "Apache"
@@ -75,3 +97,4 @@ References:
 [Vagrant]:    http://www.vagrantup.com/              "Vagrant"
 [VirtualBox]: https://www.virtualbox.org/            "VirtualBox"
 [VMFusion]:   http://www.vmware.com/products/fusion/ "VMFusion"
+[YAML]:       http://yaml.org/                       "YAML"
