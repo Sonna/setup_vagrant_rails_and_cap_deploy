@@ -89,9 +89,10 @@ bash_
 
 Step 6
 ---------------------------------------------------------------------
-Once logged in run the command ```gem install bundler``` . Bundler is a 
-Ruby Gem for managing Gems and ensure that will all work with another, 
-despite their version differences.  
+Once logged in run the command ```gem install bundler``` . [Bundler][] is 
+a Ruby Gem for managing Gems and their dependencies, ensuring that they 
+will all work with another despite version differences.  
+
 
 
 
