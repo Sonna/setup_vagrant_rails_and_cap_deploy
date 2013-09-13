@@ -2,7 +2,7 @@ How to setup Vagrant, Ruby on Rails and deploying with Capistrano
 =======================================================================
 
 The purpose of this repository to practice setting up a virtual 
-environment through Vagrant, for developing a Ruby on Rails application 
+environment through Vagrant, for developing a [Rails][] application 
 and then deploying the application to a remote service (like Heroku) via 
 Capistrano.
 
@@ -87,13 +87,24 @@ tools like Cygwin. I would recommend downloading Git and using its Git
 bash_
 
 
-Step 6
+Step 6a
 ---------------------------------------------------------------------
-Once logged in run the command ```gem install bundler``` . [Bundler][] is 
-a Ruby Gem for managing Gems and their dependencies, ensuring that they 
-will all work with another despite version differences.  
+Once logged in run the command ```gem install bundler``` . 
+
+[Bundler][] is a Ruby Gem for managing Gems and their dependencies, 
+ensuring that they will all work with another despite version differences.
 
 
+Step 6b
+---------------------------------------------------------------------
+Install Ruby on Rails
+
+```gem install rails```
+
+_*Note: If installing any Gems is taking an unsually long time, 
+```Ctrl+c``` to cancel out and try again or add ```-V``` (case-sensitive) 
+or ```--verbose``` to get the full output what it is doing whilst it 
+installs._
 
 
 References:
@@ -116,6 +127,7 @@ References:
 - [MinGW][]
 - [MySQL][]
 - [Puppet][]
+- [Rails][]
 - [Vagrant][]
 - [VirtualBox][]
 - [VMFusion][]
@@ -141,6 +153,7 @@ References:
 [MinGW]:      http://www.mingw.org/                  "MinGW32"
 [MySQL]:      http://www.mysql.com/                  "MySQL"
 [Puppet]:     http://puppetlabs.com/                 "Puppet"
+[Rails]:      http://rubyonrails.org/                "Ruby on Rails"
 [Vagrant]:    http://www.vagrantup.com/              "Vagrant"
 [VirtualBox]: https://www.virtualbox.org/            "VirtualBox"
 [VMFusion]:   http://www.vmware.com/products/fusion/ "VMFusion"
