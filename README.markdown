@@ -1,4 +1,5 @@
-# How to setup Vagrant, Ruby on Rails and deploying with Capistrano
+How to setup Vagrant, Ruby on Rails and deploying with Capistrano
+=======================================================================
 
 The purpose of this repository to practice setting up a virtual 
 environment through Vagrant, for developing a Ruby on Rails application 
@@ -7,7 +8,8 @@ Capistrano.
 
 _This is also for use for fellow students to learn from and copy._
 
-## Step 1
+Step 1
+---------------------------------------------------------------------
 First download and install the following programs:
 - [Git][]
 - [Vagrant][]
@@ -20,14 +22,14 @@ Linux plugins installed (via [MinGW][], [Cygwin][], etc).
 
 References:
 ---------------------------------------------------------------------
-[Bundler][]
-[Capistrano][]
-[Cygwin][]
-[Git][]
-[MinGW][]
-[Vagrant][]
-[VirtualBox][]
-[VMFusion][]
+- [Bundler][]
+- [Capistrano][]
+- [Cygwin][]
+- [Git][]
+- [MinGW][]
+- [Vagrant][]
+- [VirtualBox][]
+- [VMFusion][]
 
 [Bundler]:    http://bundler.io/                     "Bundler"
 [Capistrano]: http://www.capistranorb.com/           "Capistrano"
