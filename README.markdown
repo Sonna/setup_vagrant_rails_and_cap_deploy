@@ -19,8 +19,19 @@ Linux plugins installed (via [MinGW][], [Cygwin][], etc).
 
 
 References:
+---------------------------------------------------------------------
+[Bundler][]
+[Capistrano][]
+[Cygwin][]
+[Git][]
+[MinGW][]
+[Vagrant][]
+[VirtualBox][]
+[VMFusion][]
+
 [Bundler]:    http://bundler.io/                     "Bundler"
 [Capistrano]: http://www.capistranorb.com/           "Capistrano"
+[Cygwin]:     http://www.cygwin.com/                 "Cygwin"
 [Git]:        http://git-scm.com/                    "Git"
 [MinGW]:      http://www.mingw.org/                  "MinGW32"
 [Vagrant]:    http://www.vagrantup.com/              "Vagrant"
