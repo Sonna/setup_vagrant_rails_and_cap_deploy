@@ -15,7 +15,7 @@ stage { 'preinstall':
 class apt_get_update {
   exec { 'apt-get -y update':
     unless => "test -e ${home}/.rvm",
-    timeout => 900,
+    timeout => 0,
   }
 }
 class { 'apt_get_update':
@@ -91,18 +91,20 @@ package { 'nodejs':
 exec { 'install_rvm':
   command => "${as_vagrant} 'curl -L https://get.rvm.io | bash -s stable'",
   creates => "${home}/.rvm",
+  timeout => '0',
   require => Package['curl']
 }
 
 exec { 'install_ruby':
   command => "${as_vagrant} '${home}/.rvm/bin/rvm install 2.0.0 --autolibs=enabled'",
   creates => "${home}/.rvm/bin/ruby",
-  timeout => 600,
+  timeout => '0',
   require => [ Package['libyaml-dev'], Exec['install_rvm'] ]
 }
 
 exec { 'set_default_ruby': 
   command => "${as_vagrant} '${home}/.rvm/bin/rvm --fuzzy alias create default 2.0.0 && ${home}/.rvm/bin/rvm use default'",
+  timeout => '0',
   require => Exec['install_ruby']
 }
 
