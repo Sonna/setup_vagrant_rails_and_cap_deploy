@@ -87,6 +87,13 @@ tools like Cygwin. I would recommend downloading Git and using its Git
 bash_
 
 
+Step 6
+---------------------------------------------------------------------
+Once logged in run the command ```gem install bundler``` . Bundler is a 
+Ruby Gem for managing Gems and ensure that will all work with another, 
+despite their version differences.  
+
+
 
 References:
 ---------------------------------------------------------------------
