@@ -8,6 +8,7 @@ Capistrano.
 
 _This is also for use for fellow students to learn from and copy._
 
+
 Step 1
 ---------------------------------------------------------------------
 First download and install the following programs:
@@ -18,6 +19,7 @@ First download and install the following programs:
 You will need Git to clone repositories, but also to use its included 
 "Git bash" if you are running on Windows and do not have some basic 
 Linux plugins installed (via [MinGW][], [Cygwin][], etc).
+
 
 Step 2
 ---------------------------------------------------------------------
@@ -48,6 +50,12 @@ after installing Vagrant.
 Quickly searching the web found the 
 ["Red Tide Hobo Surfer" repositroy][Red Tide Hobo Surfer], which should 
 install and setup a Rails environment using SaltStack.
+
+
+Step 3
+---------------------------------------------------------------------
+Download and copy your chosen Vagrant file, with provision manifests, 
+into the project's root folder.
 
 
 References:
