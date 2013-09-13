@@ -66,9 +66,13 @@ e.g. ```cd ~/My\Documents/GitHu/setup_vagrant_rails_and_cap_deploy/```
 
 Run the command ```vagrant up```
 
-This will download the appropriate Vagrant box, a virtual machine built for use with Vagrant, and install the software listed in the manifests. 
+This will download the appropriate Vagrant box, a virtual machine built 
+for use with Vagrant, and install the software listed in the manifests. 
 
-_*Note: This will take some time_
+_*Note: This will take some time and may fail from timing out when 
+installing some packages. If that happens restart the virtual machine 
+with ```vagrant reload```. This also useful for making changes take 
+affect after updating the configure manifests._
 
 
 
@@ -99,6 +103,7 @@ References:
 
 ### others
 - [How to set up SSH (for the beginner)](http://inside.mines.edu/~gmurray/HowTo/sshNotes.html)
+- [Solving 'stdin: is not a tty' error](http://tech.karbassi.com/2011/11/09/stdin-is-not-a-tty/)
 
 
 [Vagrant: Rails development environment]: http://www.spinuplabs.com/posts/vagrant-rails-development-environment
