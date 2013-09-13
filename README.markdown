@@ -58,6 +58,20 @@ Download and copy your chosen Vagrant file, with provision manifests,
 into the project's root folder.
 
 
+Step 4
+---------------------------------------------------------------------
+Change to the project's root directory in Terminal (Linux or Mac OS X), Git bash or Command Prompt as Admin (Windows); 
+
+e.g. ```cd ~/My\Documents/GitHu/setup_vagrant_rails_and_cap_deploy/```
+
+Run the command ```vagrant up```
+
+This will download the appropriate Vagrant box, a virtual machine built for use with Vagrant, and install the software listed in the manifests. 
+
+_*Note: This will take some time_
+
+
+
 References:
 ---------------------------------------------------------------------
 ### Articles
