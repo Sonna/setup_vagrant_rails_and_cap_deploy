@@ -114,6 +114,19 @@ Generate a new Rails Application; e.g.
 ```rails new blog```
 
 
+Step 8 
+---------------------------------------------------------------------
+Change into the new project directory; e.g.
+
+```cd /vagrant/blog/```
+
+Create the database
+
+```rake db:create```
+
+And start the server
+
+```rails server```
 
 
 References:
@@ -123,6 +136,7 @@ References:
 - [Creating the Blog Application][]
 
 ### Repositories
+- [Railsmn Dev Box][]
 - [Red Tide Hobo Surfer][]
 - [Salty Vagrant][]
 - [SpinUpLabs' Vagrant Dev Box][]
@@ -151,6 +165,7 @@ References:
 [Vagrant: Rails development environment]: http://www.spinuplabs.com/posts/vagrant-rails-development-environment
 [Creating the Blog Application]: http://guides.rubyonrails.org/getting_started.html#creating-the-blog-application
 
+[Railsmn Dev Box]: https://github.com/railsmn/railsmn-dev-box
 [Red Tide Hobo Surfer]: https://github.com/geopet/red-tide-hobo-surfer
 [Salty Vagrant]: https://github.com/saltstack/salty-vagrant
 [SpinUpLabs' Vagrant Dev Box]: https://github.com/redsparklabs/spinuplabs-vagrant-dev-box
