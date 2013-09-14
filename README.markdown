@@ -107,10 +107,20 @@ or ```--verbose``` to get the full output what it is doing whilst it
 installs._
 
 
+Step 7
+---------------------------------------------------------------------
+Generate a new Rails Application; e.g.
+
+```rails new blog```
+
+
+
+
 References:
 ---------------------------------------------------------------------
 ### Articles
 - [Vagrant: Rails development environment][]
+- [Creating the Blog Application][]
 
 ### Repositories
 - [Red Tide Hobo Surfer][]
@@ -139,6 +149,7 @@ References:
 
 
 [Vagrant: Rails development environment]: http://www.spinuplabs.com/posts/vagrant-rails-development-environment
+[Creating the Blog Application]: http://guides.rubyonrails.org/getting_started.html#creating-the-blog-application
 
 [Red Tide Hobo Surfer]: https://github.com/geopet/red-tide-hobo-surfer
 [Salty Vagrant]: https://github.com/saltstack/salty-vagrant
