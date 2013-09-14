@@ -116,6 +116,7 @@ exec { 'install_bundler':
 
 exec { 'install_rails':
   command => "${as_vagrant} 'gem install rails --version 4.0.0 --no-ri --no-rdoc'",
+  creates => "${home}/.rvm/rubies/ruby-2.0.0-p247/bin/rails",
   timeout => '0',
   require => [ Exec['set_default_ruby'], Exec['install_bundler'] ]
 }
