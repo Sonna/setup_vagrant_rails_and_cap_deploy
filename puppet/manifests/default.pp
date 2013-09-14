@@ -114,6 +114,12 @@ exec { 'install_bundler':
   require => Exec['set_default_ruby']
 }
 
+exec { 'install_rails':
+  command => "${as_vagrant} 'gem install rails --version 4.0.0 --no-ri --no-rdoc'",
+  timeout => '0',
+  require => [ Exec['set_default_ruby'], Exec['install_bundler'] ]
+}
+
 # --- MongoDB ---
 service { 'mongodb':
   ensure  => running,
