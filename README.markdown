@@ -170,6 +170,8 @@ References:
 [Salty Vagrant]: https://github.com/saltstack/salty-vagrant
 [SpinUpLabs' Vagrant Dev Box]: https://github.com/redsparklabs/spinuplabs-vagrant-dev-box
 
+[deploy.rake]: https://gist.github.com/thomd/319868
+
 [Apache]:     http://www.apache.org/                 "Apache"
 [Bundler]:    http://bundler.io/                     "Bundler"
 [Capistrano]: http://www.capistranorb.com/           "Capistrano"
